@@ -4,6 +4,7 @@ import baseSelenium.pages.*;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import utilities.manager.DriverManager;
 
 public class ExampleDefinitions extends DriverManager {
@@ -43,7 +44,7 @@ public class ExampleDefinitions extends DriverManager {
     }
     @Then("I can see a billing with the product")
     public void i_can_see_a_billing_with_the_product() {
-        // Write code here that turns the phrase above into concrete actions
+        Assert.fail();
 
     }
 }

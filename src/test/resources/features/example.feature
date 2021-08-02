@@ -7,3 +7,6 @@ Feature: Guess the word
     When   I buy a bag in  the store
     Then   I can see a billing with the product
 
+
+
+

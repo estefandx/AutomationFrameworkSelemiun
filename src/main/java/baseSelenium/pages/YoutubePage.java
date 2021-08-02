@@ -14,7 +14,7 @@ public class YoutubePage extends  BasePage {
     WebElement btnSearch;
 
     public void searchVideo(String video) throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         btnSearch.click();
         btnSearch.sendKeys(video);
     }

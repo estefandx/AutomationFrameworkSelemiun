@@ -8,7 +8,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/features/example.feature",
-        glue={"baseSelenium.stepsDefinitions"})
+        glue={"baseSelenium.stepsDefinitions"},
+        monochrome = true,
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        )
+
 public class ExampleRunner {
 
 
